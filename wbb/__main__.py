@@ -109,7 +109,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://github.com/404",
             ),
         ],
         [
@@ -118,7 +118,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Updates 👨", url="http://t.me/projectsupdates"
             ),
         ],
         [
@@ -146,7 +146,7 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                url="https://github.com/404",
             ),
         ],
         [
@@ -154,7 +154,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Updates 👨", url="t.me/projectsupdates"),
         ],
     ]
 )
@@ -256,7 +256,7 @@ async def help_parser(name, keyboard=None):
         """Hello {first_name}, My name is {bot_name}.
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
-Also you can ask anything in Support Group.
+Also you can ask anything in [Support Group](t.me/Alvin_Image_Editor_Group).
 """.format(
             first_name=name,
             bot_name=BOT_NAME,
